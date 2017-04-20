@@ -1,0 +1,23 @@
+body div {
+	height: 100%;
+	margin, padding: 0;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: row;
+}
+
+.inputContainer,
+.viewerContainer {
+  margin: 10px;
+  width: 45%;
+  height: 400px;
+  display: inline-block;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px gray solid;
+  padding: 5px;
+}
