@@ -1,0 +1,23 @@
+#app {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  position: absolute;
+}
+
+.inputContainer,
+.viewerContainer {
+  position: relative;
+  margin: 10px;
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+  top: 40px;
+  left: 125px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
