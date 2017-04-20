@@ -1,7 +1,7 @@
 # Markdown Previewer
 
 ```
-My first React Project.
+My first React Project Built with Marked.js
 Simple Markdown Previewer.
 ```
 

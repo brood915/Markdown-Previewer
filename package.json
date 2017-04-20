@@ -1,5 +1,5 @@
 {
-  "name": "your-app-name",
+  "name": "markdown-previewer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "marked": "^0.3.6",
     "prop-types": "^15.5.8",
     "react": "~15.5.4",
-    "react-dom": "~15.5.4",
+    "react-dom": "~15.5.4"
   },
   "devDependencies": {
     "babel-core": "~6.24.1",

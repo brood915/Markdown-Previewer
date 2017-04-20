@@ -1,8 +1,9 @@
 import React from 'react';
 import Input from '../components/Input';
+import styles from '../style/main.css';
+import marked from 'marked';
 
-
-class DisplayContainer extends React.Component {
+class MainContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,8 +24,8 @@ class DisplayContainer extends React.Component {
     };
   }
   render() {
-    return (<div><Input value = {this.state.value} updateValue = {this.updateValue.bind(this)} />
-        <div className="viewerContainer" dangerouslySetInnerHTML={this.markup(this.state.value)} /></div>);
+    return (<div className ={styles.app}><Input value = {this.state.value} updateValue = {this.updateValue.bind(this)} />
+        <div className={styles.viewerContainer} dangerouslySetInnerHTML={this.markup(this.state.value)} /></div>);
   }
 }
 
